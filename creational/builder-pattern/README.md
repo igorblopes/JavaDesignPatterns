@@ -1,0 +1,3 @@
+# JavaDesignPatterns - Builder Pattern
+
+Has the objective to separe construction of complexes objects from the representations. Its allows the easy way to construct differents representation of objects. Ideal for classes with many properties where you need to construct the objects of many ways. Instead create many constructors for many forms of object, builder patterns allows to construct the object with many ways without a specific and rigid constructor.
