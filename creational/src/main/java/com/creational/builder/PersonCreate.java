@@ -1,3 +1,5 @@
+package com.creational.builder;
+
 import java.time.LocalDate;
 
 public class PersonCreate {
@@ -5,16 +7,16 @@ public class PersonCreate {
     public static void main(String[] args){
 
         // Difficult to read and maintain
-        var person1 = new Person("Person", "One", "Name", LocalDate.of(1983, 9, 21), "example@gmail.com", null);
+        var person1 = new Person("com.creational.builder.Person", "One", "Name", LocalDate.of(1983, 9, 21), "example@gmail.com", null);
         showPerson(person1);
 
         // Difficult to read and maintain
-        var person2 = new Person("Person", "Two", "Name", LocalDate.of(1999, 3, 7), "example2@gmail.com", "123456789");
+        var person2 = new Person("com.creational.builder.Person", "Two", "Name", LocalDate.of(1999, 3, 7), "example2@gmail.com", "123456789");
         showPerson(person2);
 
 
         var personBuilder1 = new PersonPattern.PersonBuilder()
-                .firstName("Person")
+                .firstName("com.creational.builder.Person")
                 .middleName("One")
                 .lastName("Builder")
                 .emailAddress("builderOne@gmail.com")
@@ -24,7 +26,7 @@ public class PersonCreate {
 
 
         var personBuilder2 = new PersonPattern.PersonBuilder()
-                .firstName("Person")
+                .firstName("com.creational.builder.Person")
                 .middleName("Two")
                 .lastName("Builder")
                 .phoneNumber("1232211112")

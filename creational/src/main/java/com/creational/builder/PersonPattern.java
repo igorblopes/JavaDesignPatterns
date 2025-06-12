@@ -1,3 +1,5 @@
+package com.creational.builder;
+
 import java.time.LocalDate;
 
 
@@ -24,7 +26,7 @@ public class PersonPattern {
 
     @Override
     public String toString() {
-        return "Person{ firstName='"+firstName+"', middleName='"+middleName+"', lastName='"+lastName+"', dateOfBirth='"+dateOfBirth+"', emailAddress='"+emailAddress+"', phoneNumber='"+phoneNumber+"' }";
+        return "com.creational.builder.Person{ firstName='"+firstName+"', middleName='"+middleName+"', lastName='"+lastName+"', dateOfBirth='"+dateOfBirth+"', emailAddress='"+emailAddress+"', phoneNumber='"+phoneNumber+"' }";
     }
 
     public static class PersonBuilder {

@@ -1,5 +1,6 @@
+package com.creational.builder;
+
 import java.time.LocalDate;
-import java.text.MessageFormat;
 
 
 public class Person {
@@ -26,6 +27,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{ firstName='"+firstName+"', middleName='"+middleName+"', lastName='"+lastName+"', dateOfBirth='"+dateOfBirth+"', emailAddress='"+emailAddress+"', phoneNumber='"+phoneNumber+"' }";
+        return "com.creational.builder.Person{ firstName='"+firstName+"', middleName='"+middleName+"', lastName='"+lastName+"', dateOfBirth='"+dateOfBirth+"', emailAddress='"+emailAddress+"', phoneNumber='"+phoneNumber+"' }";
     }
 }
