@@ -28,6 +28,6 @@ public class Bird extends Animal {
 
     @Override
     public Bird clone() {
-        return new Bird(this.getAge(), this.getType());
+        return new Bird(this.getAge(), new BirdType(this.getType().getType()));
     }
 }
